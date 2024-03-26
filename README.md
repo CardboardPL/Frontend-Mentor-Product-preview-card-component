@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/CardboardPL/Frontend-Mentor-Product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://cardboardpl.github.io/Frontend-Mentor-Product-preview-card-component/)
+- Live Site URL: [GitHub Pages](https://cardboardpl.github.io/Frontend-Mentor-Product-preview-card-component/)
 
 ## My process
 

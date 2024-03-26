@@ -7,10 +7,13 @@
   font-size: 1rem;
   font-weight: 500;
   background-color: hsl(0, 0%, 100%);
-  width: 600px;
-  height: 450px;
-  border-radius: 12px;
-  margin-bottom: 16px;
+  margin-top: 2.285714285714286rem;
+  min-width: 22.85714285714286rem;
+  width: 90%;
+  max-width: 42.85714285714286rem;
+  max-height: 32.14285714285714rem;
+  border-radius: 0.8571428571428571rem;
+  margin-bottom: 1.142857142857143rem;
   overflow: hidden;
 }
 
@@ -27,38 +30,38 @@
 
 .product-preview-card > section {
   color: hsl(158, 36%, 37%);
-  padding: 32px;
+  padding: 2.285714285714286rem;
 }
 
 .product-type {
-  letter-spacing: 6px;
+  letter-spacing: 0.4285714285714286rem;
 }
 
 .product-name {
   font-family: 'Frauces';
-  font-size: 40px;
-  margin: 17px 0;
+  font-size: 2.857142857142857rem;
+  margin: 1.214285714285714rem 0;
   line-height: 1;
   color: hsl(212, 21%, 14%);
 }
 
 .product-description {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
 .product-price {
   font-family: 'Frauces';
   font-weight: 700;
-  margin: 17px 0;
+  margin: 1.214285714285714rem 0;
   display: flex;
   align-items: center;
-  gap: 16px;
-  font-size: 40px;
+  gap: 1.142857142857143rem;
+  font-size: 2.857142857142857rem;
 }
 
 .original-price {
-  font-size: 14px;  
+  font-size: 1rem;  
   font-weight: 500;
   color: hsl(228, 12%, 48%);
 }
@@ -70,9 +73,9 @@
   font-weight: 700;
   color: white;
   background-color: hsl(158, 36%, 37%);
-  padding: 16px;
+  padding: 1.142857142857143rem;
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5714285714285714rem;
   cursor: pointer;
 }
 
@@ -82,6 +85,23 @@
 
 .add-to-cart-btn > span::before {
   position: absolute;
-  left: -24px;
+  left: -1.714285714285714rem;
   content: url(../images/icon-cart.svg);
+}
+
+@media (max-width: 620px) {
+  .product-preview-card {
+    flex-direction: column;
+    max-height: none;
+  }
+
+  .product-preview-card > * {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .product-preview-card > div[role="img"] {
+    width: 100%;
+    height: 275px;
+  }
 }

@@ -27,6 +27,6 @@ main {
 
 @media (max-width: 620px) {
   html {
-    font-size: 0.8125rem;
+    font-size: 0.75rem;
   }
 }

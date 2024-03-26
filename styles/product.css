@@ -108,6 +108,10 @@
   .product-preview-card > div[role="img"] {
     background-image: url(../images/image-product-mobile.jpg);
     width: 100%;
-    height: 275px;
+    height: 19.64285714285714rem;
+  }
+
+  .product-preview-card > section {
+    padding: 1.714285714285714rem;
   }
 }

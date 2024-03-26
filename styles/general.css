@@ -24,3 +24,9 @@ main {
   justify-content: center;
   width: 100%;
 }
+
+@media (max-width: 620px) {
+  html {
+    font-size: 0.8125rem;
+  }
+}
